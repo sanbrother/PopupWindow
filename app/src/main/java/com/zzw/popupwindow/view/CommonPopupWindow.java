@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.PopupWindow;
 
+import com.zzw.popupwindow.R;
+
 /**
  * Created by zzw on 2017/3/30.
  */
@@ -34,7 +36,7 @@ public abstract class CommonPopupWindow {
     protected abstract void initView();
     protected abstract void initEvent();
     protected void initWindow() {
-        mInstance.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        mInstance.setBackgroundDrawable(context.getDrawable(R.drawable.popup_bg));
         mInstance.setOutsideTouchable(true);
         mInstance.setTouchable(true);
     }

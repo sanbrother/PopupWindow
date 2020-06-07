@@ -6,8 +6,9 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
         android:divider="@drawable/divider_transparent"
         android:dividerHeight="3dp"
-        android:background="@android:color/white"
+        android:background="@android:color/transparent"
         android:id="@+id/data_list" />
 </LinearLayout>
